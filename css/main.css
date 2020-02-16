@@ -1,0 +1,143 @@
+body{background: #fff url(../img/bg.jpg) 50% 30% no-repeat;
+    background-size: cover;}
+.header{margin: 2rem auto}
+.nav{width: 100%;
+align-items: center;}
+
+
+/*Menu*/
+.menu-item{list-style: none;
+margin: 0 auto;}
+.menu-link{color: white;
+font-weight: 600}
+.menu-link:hover{color:white}
+.menu{margin: 0 auto;}
+
+/*logo*/
+.logo{margin:0 auto;}
+.right-logo{justify-content:space-around;}
+
+/*SECTION*/
+.section{padding-top: 6rem}
+.section-header{font-weight: 900;
+color: white}
+.section-text{font-weight: 300;
+color: white}
+
+/*Buttons*/
+.button-order{height: 40px;
+    width: 160px;
+background: linear-gradient(to right, #0c98fa, #17e1f5);
+color: white;
+border-radius: 5px;
+border:none;}
+.button-see{height: 40px;
+width: 160px;
+border-radius: 5px;
+background-color: transparent;
+color:white;
+margin-left: 10px;
+border-color:white;}
+.button-see:hover{background:white;
+border:none;
+color:#0c98fa;}
+
+
+/*right logo*/
+.item{
+margin:0;
+padding: 0;
+margin-top: 10px;}
+.items{list-style: none;
+color: white;
+margin-right:40px;}
+.text{padding-left: 10px}
+.h6{font-weight: 400;
+margin: 0;}
+.p{font-weight: 900;
+font-size: 20px;
+margin-left: 10px;}
+.info{align-items:start}
+
+/*footer*/
+.mouse-text{
+    color:white;
+    font-size: 12px}
+.mouse{ display: flex;
+  flex-direction: column;
+  align-items: center;}
+.buttom{display: flex;
+align-items:flex-end;
+    justify-content:space-around;
+height: 100%;}
+.left{margin-right: }
+.bottom-text{font-weight: 500;
+font-size: 20px;
+color:white;
+margin: 0;
+height: auto;
+
+
+
+
+width: auto;
+margin-left: 5px}
+
+/*modal*/
+.modal-content{;
+max-height: 100vn;
+    max-width: 100vn;}
+
+
+
+/*span*/
+.carousel-control-next{position:absolute ;
+left:90%;}
+.carousel-control-prev-icon{position:absolute;
+    right:100px;}
+.pepe{position: absolute;
+top:120px;
+left:140px; }
+
+
+@media screen and (max-width: 992px){
+    .logo{display: block;
+    margin: 0 auto;
+    margin-bottom: 20px}
+    .right-logo{flex-direction: column;
+    text-align: center;}
+    .right-link{margin-top: 10px}
+    .section{}
+    .intro{text-align: center}
+    .right-bar{display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin: 0 auto}
+    .main-logo{margin: 0 auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

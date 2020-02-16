@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>Dominos</title>
+</head>
+<body>
+   <header class="header">
+       <div class="container">
+           <div class="row">
+             <div class="nav d-flex">
+              <div class="col-lg-2">
+               <img src="img/dominoslogo.png" alt="logo" class="logo">
+           </div>
+           <div class="col-lg-5 offset-lg-2">
+               <ul class="menu d-flex">
+                   <li class="menu-item"><a href="#" class="menu-link">HOME</a></li>
+                   <li class="menu-item"><a href="#" class="menu-link">MENU</a></li>
+                   <li class="menu-item"><a href="#" class="menu-link">ABOUT US</a></li>
+                   <li class="menu-item"><a href="#" class="menu-link">CONTACTS</a></li>
+                   <li class="menu-item"><a href="#" class="menu-link">OFFERS</a></li>
+               </ul>
+           </div>
+           <div class="col-lg-2 offset-lg-1">
+           <div class="right-logo d-flex">
+               <a href="#" class="link-search"><img src="img/poisk.png" alt="logo" class="search"><img></a>
+               <a href="#" class="right-link"><img src="img/hamburgermenu.png" alt="#" class="menu-logo"></a>
+           </div>
+           </div>
+          </div>
+       </div>
+       </div>
+   </header>
+   <section class="section">
+      <div class="container">
+          <div class="row">
+             <div class="col-lg-6">
+                <div class="intro">
+                 <h1 class="section-header">NEW COSMIC SIZE <br>PEPPERONI PIZZA</h1>
+                 <p class="section-text">Enjoy a slice of spicy pepperoni pizza while you wath your favorite movie.<br>It is the perfect movie day food!</p>
+                 <button class="button-order">Order Pizza Now</button>
+                 <button class="button-see">See More Pizzas</button>
+             </div>
+              </div>
+             <div class="col-lg-6">
+             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+               
+               
+                <div class="right-bar">
+                <div class="first-slide">
+                 <img src="img/pizza.png" alt="" class="main-logo">
+                 <div class="under-logo">
+                     <ul class="item d-flex">
+                         <li class="items"><div class="info d-flex"><img src="img/size.png" alt="logo"><div class="text"><h6 class="h6">Pizza size:</h6><p class="p">48 SM</p></div></div></li>
+                         <li class="items"><div class="info d-flex"><img src="img/price.png" alt="logo"><div class="text"><h6 class="h6">Pizza price:</h6><p class="p">$16.00</p></div></div></li>
+                         <li class="items"><div class="info d-flex"><img src="img/24_hours.png" alt="logo"><div class="text"><h6 class="h6">Delivery time:</h6><p class="p">20 MIN</p></div></div></li>
+                     </ul>
+                 </div>
+             </div>
+             </div>
+             </div>
+          </div>
+      </div>
+   </section>
+  <footer class="footer">
+      <div class="container">
+          <div class="row">
+             <div class="col-lg-1">
+                <div class="mouse">
+                <p class="mouse-text">Scroll down</p>
+                 <img src="img/scroll.png" alt="" class="scroll">
+             </div>
+             </div>
+             <div class="col-lg-2 offset-lg-9">
+              <div class="buttom">
+               <a href="#" class="left"><img src="img/left.png" alt="logo"></a>
+               <a href="#" class="right"><img src="img/right.png" alt="logo"></a>
+                  <p class="bottom-text">03<sup>/05</sup></p>
+                  </div>
+        </div>
+          </div>
+      </div>
+  </footer>
+  
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
